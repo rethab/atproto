@@ -22,6 +22,7 @@ import { createHttpTerminator, HttpTerminator } from 'http-terminator'
 import AppContext, { AppContextOptions } from './context'
 import compression from './util/compression'
 import { proxyHandler } from './pipethrough'
+import promBundle from 'express-prom-bundle'
 
 export * from './config'
 export { Database } from './db'
@@ -94,8 +95,11 @@ export class PDS {
 
     server = API(server, ctx)
 
+    const metricsMiddleware = promBundle({ includeMethod: true })
+
     const app = express()
     app.set('trust proxy', true)
+    app.use(metricsMiddleware)
     app.use(loggerMiddleware)
     app.use(compression())
     app.use(authRoutes.createRouter(ctx)) // Before CORS
