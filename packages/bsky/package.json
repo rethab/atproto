@@ -70,7 +70,7 @@
   "devDependencies": {
     "@atproto/api": "workspace:^",
     "@atproto/lex-cli": "workspace:^",
-    "@atproto/pds": "workspace:^",
+    "@fusectore/atproto-pds": "workspace:^",
     "@atproto/xrpc": "workspace:^",
     "@bufbuild/buf": "^1.28.1",
     "@bufbuild/protoc-gen-es": "^1.5.0",

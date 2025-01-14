@@ -1,4 +1,4 @@
-import * as pds from '@atproto/pds'
+import * as pds from '@fusectore/atproto-pds'
 import * as bsky from '@atproto/bsky'
 import * as bsync from '@atproto/bsync'
 import * as ozone from '@atproto/ozone'

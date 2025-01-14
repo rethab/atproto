@@ -1,5 +1,5 @@
 import { Secp256k1Keypair } from '@atproto/crypto'
-import { SkeletonHandler, createLexiconServer } from '@atproto/pds'
+import { SkeletonHandler, createLexiconServer } from '@fusectore/atproto-pds'
 import { InvalidRequestError } from '@atproto/xrpc-server'
 import * as plc from '@did-plc/lib'
 import events from 'events'

@@ -1,7 +1,7 @@
 import { sql } from 'kysely'
 import { CID } from 'multiformats/cid'
 import { cidForCbor, TID } from '@atproto/common'
-import { repoPrepare } from '@atproto/pds'
+import { repoPrepare } from '@fusectore/atproto-pds'
 import { WriteOpAction } from '@atproto/repo'
 import { AtUri } from '@atproto/syntax'
 import {

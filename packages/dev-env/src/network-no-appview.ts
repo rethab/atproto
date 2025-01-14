@@ -1,4 +1,4 @@
-import { SkeletonHandler } from '@atproto/pds'
+import { SkeletonHandler } from '@fusectore/atproto-pds'
 import { TestServerParams } from './types'
 import { TestPlc } from './plc'
 import { TestPds } from './pds'
