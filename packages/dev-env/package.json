@@ -29,7 +29,7 @@
     "@atproto/identity": "workspace:^",
     "@atproto/lexicon": "workspace:^",
     "@atproto/ozone": "workspace:^",
-    "@atproto/pds": "workspace:^",
+    "@fusectore/atproto-pds": "workspace:^",
     "@atproto/sync": "workspace:^",
     "@atproto/syntax": "workspace:^",
     "@atproto/xrpc-server": "workspace:^",
