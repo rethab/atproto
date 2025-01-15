@@ -95,7 +95,7 @@ export class PDS {
 
     server = API(server, ctx)
 
-    const metricsMiddleware = promBundle({ includeMethod: true })
+    const metricsMiddleware = promBundle({ includeMethod: true, includePath: true })
 
     const app = express()
     app.set('trust proxy', true)
